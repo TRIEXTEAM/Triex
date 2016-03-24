@@ -245,20 +245,19 @@ function create_config( )
     "time",
     "version"
     },
-	    sudo_users = {158990680},--Sudo users
+	    sudo_users = {192695150},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[
 🔸🔸🔸
-https://github.com/arashavast/avast-v6-bot
+https://github.com/TRIEXTEAM/TRIEX 🔰
 🔸🔸🔸
-channel : @avast_team
-sodu : @Arash_avast
+Channel @TriexTeam
 🔸🔸🔸
 ]],
     help_text_realm = [[
-Realm Commands:
-🔸🔸🔸
+Triex Realm Commands: ☺
+
 !creategroup [Name]
 Create a group
 〰〰
@@ -319,14 +318,14 @@ Only sudo users can run this command
 !bc 123456789 Hello !
 This command will send text to [group_id]
 〰〰
-Channel: @avast_team
+Channel: @TriexTeam
 🔸🔸🔸
 ]],
     help_text = [[
-Commands list :
- 🔸🔸🔸
+Triex Commands list :
+ 
 1-banhammer list ^
- 🔸🔸🔸
+ 
 !kick [username|id]
 (کیک کردن شخص (حتی با ریپلی)
 〰〰〰
@@ -342,8 +341,8 @@ Commands list :
 !kickme
 خروج از گروه
 〰〰〰
-2-Statistics list ^
-🔸🔸🔸
+2-Statistics list ^ 🈚️
+
 !who
 لیست+ایدی همه اعضا
 〰〰〰
@@ -359,8 +358,8 @@ Commands list :
 !banlist
 لیست اعضا بن شده
 〰〰〰
-3-Rate Member ^
-🔸🔸🔸
+3-Rate Member ^ 🈹
+
 !setowner [id]
 (id ایجاد مدیر جدید (همراه 
 〰〰〰
@@ -370,8 +369,8 @@ Commands list :
 !demote [username]
 (برکنار کردن ادمین (همراه ریپلی)
 〰〰〰
-4-General changes ^
-🔸🔸🔸
+4-General changes ^ ☢
+
 !setname [name]
 ایجاد اسم جدید برای گروه
 〰〰〰
@@ -387,8 +386,8 @@ Commands list :
 !setflood [value]
 حساسیت به اسپم در گروه
 〰〰〰
-5-View details ^
-🔸🔸🔸
+5-View details ^ ♊️
+
 !about
 درباره گروه
 〰〰〰
@@ -401,8 +400,8 @@ Commands list :
 !help
 لیست دستورات ربات
 〰〰〰
-6-Security Group ^
-🔸🔸🔸
+6-Security Group ^ 🆔
+
 !lock member 
 قفل ورود اعضا جدید
 〰〰〰
@@ -439,8 +438,8 @@ Commands list :
 [chat*join*photo]
 باز کردن دستورات قفل شده
 〰〰〰
-7-Fun time ^
-🔸🔸🔸
+7-Fun time ^ ♌️
+
 !time country city
 ساعت کشور مورد نظر
 〰〰〰
@@ -456,8 +455,8 @@ Commands list :
  !calc 3+1
  انجام محاسبات ریاضی
 〰〰〰
-8-Service Provider ^
-🔸🔸🔸
+8-Service Provider ^ 🆔
+
 !newlink
 ایجاد لینک جدید
 〰〰〰
@@ -472,8 +471,8 @@ Commands list :
 اضافه کردن شخص تو گروه
 (حتما شماره ربات را سیو کرده باشد)
 〰〰〰
-9-Member Profile and Group ^
-🔸🔸🔸
+9-Member Profile and Group ^ ☮
+
 !owner
 مدیر گروه
 〰〰〰
@@ -489,7 +488,7 @@ Commands list :
 !settings
 تنظیمات فعلی گروه
 〰〰〰
-10-filter word Mode ^
+10-filter word Mode ^ ☢
 〰〰〰
 !filter set (word)
 اضافه کردن کلمه جدید به لیست
@@ -503,20 +502,18 @@ Commands list :
 !filterlist
 لیست کلمات فیلتر شده
 〰〰〰
-11-Support
-🔸🔸🔸
+11-Support ☯
+
 !version
 ورژن ربات
 〰〰〰
 !feedback (text)
 ارسال نظرات به سازنده
 〰〰〰
-you can use both "/" and "!" 
+you can use both "/" and "!"  
 .شما میتوانید از ! و / استفاده کنید
-🔸🔸🔸
-channel: @avast_team
-🔸🔸🔸
-G00D LUCK ^_^
+
+Channel @TriexTeam 🔸
 ]]
    }
   serialize_to_file(config, './data/config.lua')
