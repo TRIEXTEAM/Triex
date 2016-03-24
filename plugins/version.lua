@@ -1,17 +1,16 @@
 do
 
 function run(msg, matches)
-  return 'avast-bot v6'.. VERSION .. [[ 
+  return 'Triex'.. VERSION .. [[ 
  
-  Developer : @Arash_avast
+ ❕ Developers : @ArianTriex / @IliyaTriex / @MersadTriex
   
-  Channel : @avast_team
+ 🔱 Channel : @TriexTeam
   
-  Open git : https://github.com/arashavast/avast-v6-bot
+ ⌚ Open git : https://github.com/TRIEXTEAM/Triex
   
-  avast version 6
+  🔰 Triex ⓒ CopyRight Triex Team
   
-  All rights reserved.
   __________________]]
 end
 
@@ -25,7 +24,3 @@ return {
 }
 
 end
---Copyright and edit; @behroozyaghi
---Persian Translate; @behroozyaghi
---ch : @nod32team
---کپی بدون ذکر منبع حرام است
